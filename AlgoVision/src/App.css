@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+
+.pardon-our-dust {
+  color: #888;
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0px;
+}
