@@ -5,12 +5,7 @@
 }
 
 body {
-  background-color: #1a1a1a;
-}
-
-
-.pardon-our-dust {
-  color: #888;
+  background-color: #0d0d0d;
 }
 
 .flexboxContainer {
@@ -18,4 +13,5 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 0px;
+  /* background-color: #202020; */
 }

@@ -2,10 +2,10 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Freestyle', href: '#', current: true },
+  { name: 'Problems', href: '#', current: false },
+  { name: 'Visualizations', href: '#', current: false },
+  { name: 'Community', href: '#', current: false },
 ]
 
 function classNames(...classes: any) {
@@ -14,7 +14,7 @@ function classNames(...classes: any) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-[#1a1a1a]">
+    <Disclosure as="nav" className="bg-[#0d0d0d]">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

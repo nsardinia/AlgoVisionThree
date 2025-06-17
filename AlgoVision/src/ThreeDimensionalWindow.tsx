@@ -3,7 +3,7 @@ import { OrbitControls } from "@react-three/drei";
 
 function ThreeDimensionalWindow() {
   return (
-    <div style={{width: "50vw", height: "80vh"}}>
+    <div style={{margin: "3px", border: "8px solid #2d2d2d", borderRadius: "8px", width: "50vw", height: "80vh"}}>
         <Canvas
         camera={{ position: [0, 3, 3], near: 0.025 }}
         style={{ backgroundColor: "black" }}
