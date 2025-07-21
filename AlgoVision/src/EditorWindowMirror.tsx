@@ -23,7 +23,7 @@ export default function EditorWindowMirror() {
     
     const handleButtonClick = async () => {
     try {
-      const response = await fetch("https://httpbin.org/get", {
+      const response = await fetch("http://localhost:8080/", {
         method: "GET",
       });
 

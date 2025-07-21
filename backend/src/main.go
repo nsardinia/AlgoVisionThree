@@ -6,13 +6,14 @@ import (
 "log"
 )
 
-func helloHandler(w http.ResponseWriter, r *httpRequest) {
-w.Write([]byte("msg received\r\n"))
+func helloHandler(w http.ResponseWriter, r *http.Request) {
+w.Header().Set("Access-Control-Allow-Origin", "*") 
+w.Write([]byte("msg received to the go backend\r\n"))
 fmt.Println("received req from client")
 }
 
 func helloHandlerPost(w http.ResponseWriter, r *http.Request) {
-w.Write([]byte("msmg.received\r\n")
+w.Write([]byte("msmg.received\r\n"))
 fmt.Println("received POSTS req from client")
 }
 
