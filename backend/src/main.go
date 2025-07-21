@@ -18,6 +18,7 @@ fmt.Println("received POSTS req from client")
 
 func main() {
 fmt.Println("Hello, Server!")
+fmt.Println("test commit")
 
 mux := http.NewServeMux()
 hf := http.HandlerFunc(helloHandler)
